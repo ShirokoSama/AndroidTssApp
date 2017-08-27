@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.TabLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:tabIndicatorColor="#ffa8abad"
+    app:tabIndicatorHeight="0.5dp"
+    app:tabPaddingTop="8sp"
+    app:tabPaddingBottom="8sp"
+    >
+
+    <android.support.design.widget.TabItem
+        android:id="@+id/tab_analysis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="结果分析" />
+
+    <android.support.design.widget.TabItem
+        android:id="@+id/tab_readme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ReadMe" />
+
+</android.support.design.widget.TabLayout>

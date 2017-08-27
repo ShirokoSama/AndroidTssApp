@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:width="0sp"
+        android:orientation="vertical"
+        android:padding="16sp">
+
+        <TextView
+            android:id="@+id/assignment_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3sp"
+            android:text="TextView"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/assignment_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3sp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/assignment_start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3sp"
+            android:text="TextView"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/assignment_end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3sp"
+            android:text="TextView"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/assignment_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3sp"
+            android:text="TextView"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:width="0sp"
+        android:orientation="vertical"
+        android:paddingBottom="68sp"
+        android:paddingTop="68sp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_keyboard_arrow_right_black_24dp" />
+    </LinearLayout>
+
+</LinearLayout>
